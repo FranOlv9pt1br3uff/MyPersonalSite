@@ -1,0 +1,53 @@
+body {
+    background: rgb(200, 181, 201);
+    background-size: auto 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    heigt: 100vh;
+}
+
+
+/*ponto quando tiver dentro de classe*/
+
+.menu {
+    background-color: rgb(81, 153, 166);
+}
+
+a {
+    text-decoration: none;
+    /*tirar o underline*/
+    color: rgb(160, 0, 108);
+    font-weight: bold;
+}
+
+a:hover {
+    /*quando o mouse passar por cima do link*/
+    background-color: rgb(160, 0, 108);
+    color: rgb(200, 181, 201);
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    /*tirar as bolinhas*/
+    list-style: none;
+    /* procurar ESSE da WIKI e colocar um ^ invertido no final*/
+}
+
+.site-title,
+.site-subtitle {
+    color: rgb(81, 153, 166);
+    text-align: center;
+}
+
+.site-subtitle {
+    font-style: italic;
+}
+
+
+/* paleta de cores do site https://www.colourlovers.com/palette/4737853/Seasons*/
+
+
+/* imagem atras do meu nome background-image:url('http://www.colourlovers.com/pattern/5877796/Pastel_tropics_2')#*/
